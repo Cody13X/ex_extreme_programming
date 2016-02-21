@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Extreme programming</title>
+  <meta charset="utf-8" />
+  <link type ="style" rel ="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class ="container">
+      <header>
+        <h1>Extreme programming</h1>
+            <nav>
+              <ul>
+                <li><a href="#what">Qu'est-ce que l'extreme programming (XP) ?</a></li>
+                <li><a href="#pratiques">Pratiques</a></li>
+                <li><a href="#cycle">Cycle de developpement</a></li>
+                <li><a href="#video">Video</a></li>
+              </ul>
+            </nav>
+      </header>
+      <section>
+        <article class="what">
+          <h3 id="what">Qu'est-ce que l'extreme programming (XP) ?</h3>
+            <p>L'extreme programming a été inventée par <strong>Kent Beck</strong>, <strong>Ward Cunningham</strong> et <strong>Ron Jeffries</strong> pendant leur travail sur un projet « C3 » de calcul des rémunérations chez Chrysler1,2. Kent Beck, chef de projet en <strong>mars 1996</strong> commença à affiner la méthode de développement utilisée sur le projet. Celle-ci est née officiellement en <strong>octobre 1999</strong> avec le livre <em>Extreme Programming Explained</em> de <strong>Kent Beck</strong>.</p>
+            <p>Son but principal est de <strong>réduire les coûts du changement</strong>. Dans les méthodes traditionnelles, les besoins sont définis et souvent fixés au départ du projet informatique ce qui accroît les coûts ultérieurs de modifications. XP s'attache à rendre le projet plus <strong>flexible</strong> et ouvert au changement en introduisant des valeurs de base, des principes et des pratiques.</p>
+            <pid="pratiques">Les valeurs de base sont la <strong>Communication</strong>, la <strong>Simplicité</strong>, le <strong>Feedback</strong>, le <strong>Courage</strong> et du <strong>Respect</strong>.</p>
+            <p>Les principes de cette méthode ne sont pas nouveaux. L'originalité de la méthode est de les pousser à l'<strong>extrême</strong>.</p>
+
+        </article>
+        <div class="imgkent">
+          <img class="img1" src="img/Kent_beck.jpg" alt="Kent Beck co-créateur de l'extreme programming" />
+            <span class="legende1">Kent Beck co-créateur de l'XP.</span>
+          </div>
+      </section>
+      <div class="clear"></div>
+      <section>
+        <article class="pratique">
+          <h3 >Les pratiques utilisé par l'XP :</h3>
+          <ul>
+              <li>la <strong>revue de code</strong> est une bonne pratique, elle sera <strong>faite en permanence</strong> (par un binôme),</li>
+              <li>les <strong>tests</strong> sont utiles, ils seront faits <strong>systématiquement</strong> avant chaque mise en œuvre,</li>
+              <li>la <strong>conception</strong> est importante, elle sera faite <strong>tout au long du projet</strong> (refactoring),</li>
+              <li>la <strong>simplicité</strong> permet d'avancer plus vite, nous choisirons toujours la solution la plus simple,</li>
+              <li>la <strong>compréhension</strong> est importante, nous définirons et ferons <strong>évoluer ensemble</strong> des métaphores,</li>
+              <li>l'<strong>intégration</strong> des modifications est cruciale, nous l'effectuerons plusieurs fois par jour,</li>
+              <li>les <strong>besoins évoluent vite</strong>, nous ferons des <strong>cycles de développement très rapides</strong> pour nous adapter au changement</li>
+          </ul>
+            <h4>Le codage en binome</h4>
+          <div class="binome">
+              <img id="cycle" src="img/pair_programming.jpg" alt="Deux programmeurs travaillant en binôme" />
+              <p><strong>La programmation se fait par deux.</strong> Le premier appelé <strong>driver</strong> (ou pilote) tient le clavier. C'est lui qui va travailler sur la portion de code à écrire. Le second appelé <strong>partner</strong> (ou copilote) est là pour l'aider en suggérant de nouvelles possibilités ou en décelant d'éventuels problèmes.<br /> Les développeurs <strong>changent fréquemment de partenaire</strong> ce qui permet d'améliorer la <strong>connaissance collective</strong> de l'application et d'améliorer la <strong>communication au sein de l'équipe</strong>.</p>
+          </div>
+        </article>
+      </section>
+      <section>
+        <article class="cycle">
+          <h3 >Le cycle de developpement.</h3>
+          <img src="img/cycle.png" alt="Schéma du cycle de developpement de l'extreme programming" />
+            <p id="video">L'extreme programming repose sur des <strong>cycles rapides</strong> de développement (des itérations de quelques semaines) dont les étapes sont les suivantes :</p>
+            <ul>
+                <li>une phase d'exploration détermine les <strong>scénarios "client"</strong> qui seront fournis pendant cette itération</li>
+                <li>l'équipe transforme les scénarios en <strong>tâches à réaliser</strong> et en <strong>tests fonctionnels</strong></li>
+                <li>chaque développeur <strong>s'attribue des tâches</strong> et les réalise <strong>avec un binôme</strong></li>
+              <li>lorsque tous les tests fonctionnels passent, le produit est livré</li>
+            </ul>
+            <p>Le cycle se <strong>répète tant que le client peut fournir des scénarios à livrer.</strong> Généralement le cycle de la première livraison se caractérise par sa durée et le volume important de fonctionnalités embarquées. Après la première mise en production, les itérations peuvent devenir plus courtes (une semaine par exemple).</p>
+        </article>
+
+      </section>
+      <section class="conference">
+        <h3 >Conférence sur l'XP par Kent Beck (en anglais)</h3>
+          <iframe width="780" height="500" src="https://www.youtube.com/embed/d4qldY0g_dI" frameborder="0" allowfullscreen></iframe>
+      </section>
+      <div class="clear"></div>
+      <footer>
+          <h5>Sources:</h5>
+        <ul>
+          <li><a href ="https://fr.wikipedia.org/wiki/Extreme_programming">Wikipedia</a></li>
+          <li><a href ="http://farm3.static.flickr.com/2313/2540885976_74502532a3.jpg">Image Kent Beck</a></li>
+          <li><a href ="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Pair_programming_1.jpg/330px-Pair_programming_1.jpg">Image Binome</a></li>
+          <li><a href ="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Extreme_programming.svg/729px-Extreme_programming.svg.png">Schéma Cycle de developpement   </a></li>
+          <li><a href ="https://www.youtube.com/embed/d4qldY0g_dI">Video Youtube</a></li>
+        </ul>
+      </footer>
+    </div>
+</body>
+</html>
